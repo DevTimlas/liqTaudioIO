@@ -18,7 +18,6 @@ from langchain.prompts import (
 )
 from langchain.chains import LLMChain
 
-load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
