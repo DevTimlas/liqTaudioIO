@@ -4,7 +4,6 @@ from flask_cors import CORS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain_groq import ChatGroq
-from dotenv import load_dotenv
 import os
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
